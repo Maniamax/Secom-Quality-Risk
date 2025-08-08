@@ -1,0 +1,16 @@
+﻿name: qrisk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - lightgbm
+      - shap
+      - joblib
+      - streamlit
+      - matplotlib
+prefix: C:\Users\conor\miniconda3\envs\dsproj
